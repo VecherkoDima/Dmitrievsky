@@ -1,0 +1,98 @@
+.center{
+width: 1150px;
+margin: 0 auto;
+border: 2px solid rgb(112, 109, 109);
+padding: 20px;
+box-sizing: border-box;
+background-color: rgb(255, 255, 255);
+}
+
+body{
+    font-family: 'Manrope', Courier, monospace;
+}
+p{
+    font-size: 20px;
+    line-height: 27.32px;
+    font-weight: 400;
+}
+h1{
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    margin-bottom: 30px;
+    padding-left: 100px;
+    padding-right: 28px;
+}
+
+
+
+.divan{
+    background-image: url('../resources/передел.jpg');
+    width: 900px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    
+
+}
+
+.divan-text{
+    padding-top: 500px;
+    padding-left: 40px;
+    padding-right:  400px; 
+    color: white;
+    letter-spacing: -0.03em;
+}
+
+h6{
+    
+    padding-bottom: 30px;
+    padding-left: 100px;
+}
+
+.cc{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 30px;
+}
+
+/*.abc{
+    display: block;
+    border: 1px solid red;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    color: red;
+    margin-top: 10px;
+    background-color: white;
+    cursor: pointer;
+}
+.abc:hover{
+    color:green ;
+    background-color: yellow;
+} */
+
+button{
+    margin-left: 100px;
+    margin-top: 10px;
+    display: block;
+    border: 1px solid black;
+    width: 180px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    color: black;
+    background-color: red;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:hover{
+    color: rgb(255, 255, 255); 
+    background-color:rgb(120, 119, 119) ;
+
+}
