@@ -27,7 +27,7 @@ h1{
 
 
 .divan{
-    background-image: url('../resources/передел.jpg');
+    background-image: url('/передел.jpg');
     width: 900px;
     height: 600px;
     margin-left: auto;
