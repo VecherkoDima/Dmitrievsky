@@ -1,7 +1,6 @@
 .center{
 width: 1150px;
 margin: 0 auto;
-border: 2px solid rgb(112, 109, 109);
 padding: 20px;
 box-sizing: border-box;
 background-color: rgb(255, 255, 255);
@@ -16,83 +15,68 @@ p{
     font-weight: 400;
 }
 h1{
-    font-size: 50px;
-    color: rgb(0, 0, 0);
-    text-align: left;
-    margin-bottom: 30px;
-    padding-left: 100px;
-    padding-right: 28px;
+    font-size: 60px;
+    font-weight: 400;
+   line-height: 60px;
+   text-align: left;
+   padding-bottom: 30px;
+
 }
 
 
 
 .divan{
-    background-image: url('/передел.jpg');
-    width: 900px;
-    height: 600px;
+    background-image: url('/Rectangle.jpg');
+    width: 1150px;
+    height: 500px; 
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
     margin-bottom: 150px;
     
 
 }
 
 .divan-text{
-    padding-top: 500px;
+    padding-top: 379px;
     padding-left: 40px;
-    padding-right:  400px; 
+    padding-bottom: 40px;
+    padding-right: 680px;
+    width: 430px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
     color: white;
-    letter-spacing: -0.03em;
+   letter-spacing: -0.02em;
 }
 
-h6{
-    
+h2{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: -0.03em;
+    text-align: left;
     padding-bottom: 30px;
-    padding-left: 100px;
+
 }
 
 .cc{
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-bottom: 30px;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 61px;
+    letter-spacing: -0.003;
+    text-align: left;
 }
 
-/*.abc{
-    display: block;
-    border: 1px solid red;
-    width: 300px;
-    height: 50px;
-    text-align: center;
-    line-height: 50px;
-    text-decoration: none;
-    color: red;
-    margin-top: 10px;
-    background-color: white;
-    cursor: pointer;
-}
-.abc:hover{
-    color:green ;
-    background-color: yellow;
-} */
-
-button{
-    margin-left: 100px;
-    margin-top: 10px;
-    display: block;
-    border: 1px solid black;
-    width: 180px;
-    height: 50px;
-    text-align: center;
-    line-height: 50px;
-    text-decoration: none;
-    color: black;
-    background-color: red;
-    cursor: pointer;
+a {
+    color: white;
+    display: inline-block;
+    padding: 20px 40px;
+    margin-top: 30px;
+    background-color: #ad1818;
     border-radius: 5px;
 }
-button:hover{
+/*a:hover{
     color: rgb(255, 255, 255); 
     background-color:rgb(120, 119, 119) ;
 
-}
+}*/
