@@ -1,65 +1,72 @@
-.center{
-width: 1150px;
-margin: 0 auto;
-padding: 20px;
-box-sizing: border-box;
-background-color: rgb(255, 255, 255);
+.center {
+    width: 1150px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
 }
 
-body{
+body {
     font-family: 'Manrope', Courier, monospace;
 }
-p{
+
+p {
     font-size: 20px;
     line-height: 27.32px;
     font-weight: 400;
 }
-h1{
+
+h1 {
     font-size: 60px;
     font-weight: 400;
-   line-height: 60px;
-   text-align: left;
-   padding-bottom: 30px;
+    line-height: 60px;
+    text-align: left;
+    padding-bottom: 30px;
 
 }
 
 
 
-.divan{
+.divan {
     background-image: url('/Rectangle.jpg');
     width: 1150px;
-    height: 500px; 
+    height: 500px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 150px;
-    
+    position: relative;
+    box-sizing: border-box;
 
 }
 
-.divan-text{
-    padding-top: 379px;
-    padding-left: 40px;
-    padding-bottom: 40px;
-    padding-right: 680px;
+.divan-text {
+    position: absolute;
+    padding-top: 377px;
+    left: 40px;
+    bottom: 40px;
+    right: 680px;
     width: 430px;
     font-weight: 400;
     font-size: 20px;
     line-height: 27px;
     color: white;
-   letter-spacing: -0.02em;
+    letter-spacing: -0.02em;
+    margin: 0 auto;
+
 }
 
-h2{
+h2 {
     font-size: 18px;
     font-weight: 400;
     line-height: 25px;
     letter-spacing: -0.03em;
     text-align: left;
     padding-bottom: 30px;
+    text-transform: uppercase;
 
 }
 
-.cc{
+.cc {
     font-size: 45px;
     font-weight: 400;
     line-height: 61px;
@@ -67,16 +74,147 @@ h2{
     text-align: left;
 }
 
-a {
+.btn {
     color: white;
     display: inline-block;
     padding: 20px 40px;
     margin-top: 30px;
     background-color: #ad1818;
     border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 150px;
 }
+
 /*a:hover{
     color: rgb(255, 255, 255); 
     background-color:rgb(120, 119, 119) ;
 
 }*/
+
+.photo2 {
+    background-image: url('/Rectangle 6.jpg');
+    width: 1150px;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    background-repeat: no-repeat;
+}
+
+.pod {
+    color: #ad1818;
+    font-size: 20px;
+    letter-spacing: -0.03em;
+    text-decoration: none;
+
+
+}
+
+.photo3 {
+    background-image: url('/Rectangle 8.jpg');
+    width: 1150px;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+}
+
+.photo4 {
+    background-image: url('/Rectangle 9.png');
+    width: 1150px;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+}
+
+.vse {
+    text-align: center;
+    color: #ad1818;
+    width: 1150px;
+    height: 153px;
+    font-size: 30px;
+    background-color: white;
+    margin-bottom: 150px;
+    margin-top: 150px;
+}
+
+.vse:hover {
+    background-color: #ad1818;
+    color: white;
+    cursor: pointer;
+}
+
+
+.obch {
+    background-color: black;
+    width: 1400px;
+    height: 1780px;
+    color: white;
+    margin: 0 auto;
+}
+
+.ph1 {
+    background-image: url('/Rectangle 12.jpg');
+    width: 1150px;
+    height: 270px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+.ph2 {
+    background-image: url('/Rectangle 13.jpg');
+    width: 1150px;
+    height: 270px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+.ph3 {
+    background-image: url('/Rectangle 14.jpg');
+    width: 1150px;
+    height: 270px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+.ph4 {
+    background-image: url('/Rectangle 15.jpg');
+    width: 1150px;
+    height: 270px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+.obch_text {
+    margin-left: 124px;
+    margin-bottom: 30px;
+}
+
+.uslug {
+    margin-left: 124px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    padding-bottom: 30px;
+    padding-top: 180px;
+}
+
+h3 {
+    margin-bottom: 15px;
+    font-size: 28px;
+}
+
+.obch_text:nth-last-of-type(1){
+    margin-bottom: 210px;
+}
