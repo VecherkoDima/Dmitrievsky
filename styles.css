@@ -1,13 +1,16 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .center {
     width: 1150px;
     margin: 0 auto;
-    padding: 20px;
     box-sizing: border-box;
     background-color: rgb(255, 255, 255);
 }
 
 body {
-    font-family: 'Manrope', Courier, monospace;
+    font-family: 'Inter','Manrope', Courier, monospace;
 }
 
 p {
@@ -17,12 +20,12 @@ p {
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 58px;
     font-weight: 400;
-    line-height: 60px;
+    line-height: 58px;
     text-align: left;
-    padding-bottom: 30px;
-
+    padding-bottom: 32px;
+    letter-spacing: -0.03em;
 }
 
 
@@ -41,25 +44,25 @@ h1 {
 
 .divan-text {
     position: absolute;
-    padding-top: 377px;
+    padding-top: 376px;
     left: 40px;
-    bottom: 40px;
+    bottom: 38px;
     right: 680px;
-    width: 430px;
+    width: 431px;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 22px;
     line-height: 27px;
     color: white;
-    letter-spacing: -0.02em;
+    letter-spacing: -0.05em;
     margin: 0 auto;
 
 }
 
 h2 {
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 400;
     line-height: 25px;
-    letter-spacing: -0.03em;
+    letter-spacing: -0.04em;
     text-align: left;
     padding-bottom: 30px;
     text-transform: uppercase;
@@ -67,22 +70,25 @@ h2 {
 }
 
 .cc {
-    font-size: 45px;
+    width: 1060px;
+    font-size: 43px;
     font-weight: 400;
     line-height: 61px;
-    letter-spacing: -0.003;
+    letter-spacing: -0.005em;
     text-align: left;
+    font-family:'manrope';
 }
 
 .btn {
     color: white;
     display: inline-block;
-    padding: 20px 40px;
+    padding: 24px 37px;
     margin-top: 30px;
     background-color: #ad1818;
     border-radius: 5px;
     cursor: pointer;
     margin-bottom: 150px;
+    font-size: 19px;
 }
 
 /*a:hover{
@@ -97,15 +103,16 @@ h2 {
     height: 450px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     background-repeat: no-repeat;
 }
 
 .pod {
     color: #ad1818;
-    font-size: 20px;
-    letter-spacing: -0.03em;
+    font-size: 21px;
+    letter-spacing: -0.05em;
     text-decoration: none;
+    font-family: 'manrope';
 
 
 }
@@ -116,9 +123,9 @@ h2 {
     height: 450px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 15px;
+    margin-bottom: 22px;
     background-repeat: no-repeat;
-    margin-top: 30px;
+    margin-top: 93px;
 }
 
 .photo4 {
@@ -127,9 +134,9 @@ h2 {
     height: 450px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 15px;
+    margin-bottom: 21px;
     background-repeat: no-repeat;
-    margin-top: 30px;
+    margin-top: 92px;
 }
 
 .vse {
@@ -137,10 +144,14 @@ h2 {
     color: #ad1818;
     width: 1150px;
     height: 153px;
-    font-size: 30px;
+    font-size: 28px;
     background-color: white;
     margin-bottom: 150px;
-    margin-top: 150px;
+    margin-top: 94px;
+    border-radius: 5px;
+    letter-spacing: 0.01em;
+    border: 1px solid #ad1818;
+    font-family: 'manrope';
 }
 
 .vse:hover {
@@ -153,9 +164,11 @@ h2 {
 .obch {
     background-color: black;
     width: 1400px;
-    height: 1780px;
+    height: 1843px;
     color: white;
     margin: 0 auto;
+    padding-top: 20px;
+    padding-top: 151px;
 }
 
 .ph1 {
@@ -195,26 +208,193 @@ h2 {
 }
 
 .obch_text {
-    margin-left: 124px;
-    margin-bottom: 30px;
+    margin-left: 129px;
+    margin-bottom: 58px;
+    font-size: 30px;
+    line-height: 43px;
+    font-weight: 400;
+    letter-spacing: -0.03em;
+    font-family: 'manrope';
 }
 
+
 .uslug {
-    margin-left: 124px;
+    margin-left: 126px;
     font-size: 18px;
     font-weight: 400;
     line-height: 25px;
     letter-spacing: -0.03em;
     text-align: left;
-    padding-bottom: 30px;
-    padding-top: 180px;
+    padding-bottom: 34px;
 }
 
 h3 {
-    margin-bottom: 15px;
+    margin-bottom: 25px;
     font-size: 28px;
+    letter-spacing: 0.01em;
+    font-family: 'manrope';
 }
 
-.obch_text:nth-last-of-type(1){
-    margin-bottom: 210px;
+.obch_text:nth-last-of-type(1) {
+    margin-bottom: 147px;
 }
+
+
+.logo {
+    font-size: 25px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+.room {
+    height: 716px;
+    width: 1400px;
+    background-image: url('/Rectangle\ 10.png');
+    background-repeat: no-repeat;
+   /* background-size: cover;
+    background-position: 50%;*/
+    margin: 0 auto;
+    position: relative;
+
+}
+
+.room-text {
+    position: absolute;
+    bottom: 54px;
+    left: 126px;
+    font-weight: 400;
+    width: 443px;
+    line-height: 43px;
+    color: white;
+    letter-spacing: -0.03em;
+    margin: 0 auto;
+    font-size: 30px;
+    font-family: 'manrope';
+}
+
+.number{
+    width: 1151px;
+    height: 301px;
+    margin: 0 auto;
+    margin-top: 153px;
+    letter-spacing: -0.05em;
+    margin-bottom: 104px;
+    font-family: 'manrope';
+    
+}
+
+.number::before{
+    content: '';
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-image: url(/image-iphone.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 26px;
+    margin-left: -4px;
+}
+
+
+.communication{
+   margin-left: 50px;
+}
+
+#telephone {
+    font-size: 60px;
+    line-height: 116px;
+    color: black;
+    text-decoration: none;
+    
+}
+
+#mail{
+    text-decoration: none;
+    font-size: 58px;
+    line-height: 64px;
+    color: black;
+    border-bottom: 2px solid ;
+    opacity: 0.5;
+
+}
+
+.cont{
+    margin-top: -13px;
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+
+.header{
+    padding-top: 47px;
+    padding-bottom: 72px;
+}
+
+.nav{
+    float: right;
+}
+
+.nav__link{
+    margin-left: 55px;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align:left ;
+    text-decoration: none;
+    color: black;
+    letter-spacing: -0.09em;
+}
+
+.nav__link:hover{
+    opacity: 0.5;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+
+footer{
+    padding: 63px 189px 0 128px;
+
+}
+
+.container-black{
+    background-color: black;
+    box-sizing: border-box;
+    width: 1403px;
+    margin: 0 auto;
+    font-family: 'manrope';
+}
+
+.footer__title{
+    font-size: 20px;
+    line-height: 27px;
+    color: white;
+    opacity: 0.5;
+    text-align: center;
+    margin-top: 87px;
+    padding-bottom: 30px;
+    margin-left: 53px;
+    font-family: 'manrope';
+ 
+}
+
+.footernav{
+    width: 500px;
+    margin: 0 auto ;
+    margin-top: -3px;
+}
+
+.footernav__link{
+    margin-left: 52px;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    text-decoration: none;
+    color: white;
+}
+
+.footernav__link:hover{
+opacity: 0.5;
+border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
